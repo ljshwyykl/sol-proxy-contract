@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/wei/.nvm/versions/node/v14.18.2/bin/node /Users/wei/.node/corepack/yarn/1.22.15/bin/yarn.js add harthat
+
+PATH: 
+  /Users/wei/.bun/bin:/opt/homebrew/opt/llvm/bin:/Users/wei/Library/Python/3.8/bin:/Users/wei/.nvm/versions/node/v14.18.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/wei/.cargo/bin:/Users/wei/Library/Application Support/Coursier/bin:/Users/wei/.yarn/bin:/Users/wei/.wasmtime/bin:/Users/wei/flutter/bin:/usr/local/go:/Users/wei/go:/Users/wei/go/bin:/Users/wei/.foundry/bin:/Users/wei/Desktop/project/hadoop/hadoop-3.3.2/sbin:/Users/wei/Desktop/project/hadoop/hadoop-3.3.2/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.18.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/harthat: Not found
+      at Request.params.callback [as _callback] (/Users/wei/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/Users/wei/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/Users/wei/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/Users/wei/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "solproxy",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
